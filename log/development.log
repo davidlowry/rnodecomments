@@ -1,0 +1,604 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-01 20:36:56) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 20:37:09) [GET]
+
+ActionView::MissingTemplate (Missing template comments/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 20:37:37) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 184ms (View: 58, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 20:37:42) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 23ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 20:37:44) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 29ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 20:37:49) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 29ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 20:38:22) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 658ms (View: 636, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 20:38:44) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 53ms (View: 29, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 20:39:45) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 130ms (View: 107, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 20:39:46) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 369ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 20:41:04) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+
+ActionView::TemplateError (undefined method `title' for #<Comment:0x2580460>) on line #4 of app/views/comments/index.html.erb:
+1: There are <%= @comments.length %> comments
+2: 
+3: <% @comments.each do |comment|%>
+4:   <li/><%= comment.title %>
+5: <% end %>
+
+    app/views/comments/index.html.erb:4
+    app/views/comments/index.html.erb:3
+
+Rendered rescues/_trace (57.4ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 20:41:16) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 37ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 20:55:05) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 34ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 21:00:20) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 34ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 21:00:39) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 33ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 21:01:46) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 32ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 21:01:47) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 32ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 21:01:47) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 35ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 21:01:56) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 123ms (View: 99, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 21:11:09) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 37ms (View: 14, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 21:11:38) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 31ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 21:12:53) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 537ms (View: 514, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 21:15:29) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+
+ActionView::TemplateError (undefined method `edit_comment_path' for #<ActionView::Base:0x24ccf28>) on line #4 of app/views/comments/index.html.erb:
+1: There are <%= @comments.length %> comments
+2: 
+3: <% @comments.each do |comment|%>
+4:   <li/><%= comment.message %> <%= link_to "Edit", edit_comment_path(comment) %>
+5: <% end %>
+
+    app/views/comments/index.html.erb:4
+    app/views/comments/index.html.erb:3
+
+Rendered rescues/_trace (140.4ms)
+Rendered rescues/_request_and_response (2.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-01 21:15:43) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 56ms (View: 32, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#edit (for 127.0.0.1 at 2010-02-01 21:15:47) [GET]
+  Parameters: {"id"=>"fffbf68e4c321ccebac07a5174fd9357"}
+
+NoMethodError (undefined method `find' for Comment:Class):
+  app/controllers/comments_controller.rb:7:in `edit'
+
+Rendered rescues/_trace (45.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#edit (for 127.0.0.1 at 2010-02-01 21:18:34) [GET]
+  Parameters: {"id"=>"fffbf68e4c321ccebac07a5174fd9357"}
+
+NoMethodError (undefined method `find' for Comment:Class):
+  app/controllers/comments_controller.rb:7:in `edit'
+
+Rendered rescues/_trace (192.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#edit (for 127.0.0.1 at 2010-02-01 21:20:38) [GET]
+  Parameters: {"id"=>"fffbf68e4c321ccebac07a5174fd9357"}
+
+NoMethodError (undefined method `by_id' for Comment:Class):
+  app/controllers/comments_controller.rb:7:in `edit'
+
+Rendered rescues/_trace (45.6ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#edit (for 127.0.0.1 at 2010-02-01 21:20:55) [GET]
+  Parameters: {"id"=>"fffbf68e4c321ccebac07a5174fd9357"}
+
+NoMethodError (undefined method `by__id' for Comment:Class):
+  app/controllers/comments_controller.rb:7:in `edit'
+
+Rendered rescues/_trace (44.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#edit (for 127.0.0.1 at 2010-02-01 21:21:00) [GET]
+  Parameters: {"id"=>"fffbf68e4c321ccebac07a5174fd9357"}
+
+NoMethodError (undefined method `by_id' for Comment:Class):
+  app/controllers/comments_controller.rb:7:in `edit'
+
+Rendered rescues/_trace (129.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#edit (for 127.0.0.1 at 2010-02-01 21:21:09) [GET]
+  Parameters: {"id"=>"fffbf68e4c321ccebac07a5174fd9357"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 216ms (View: 17, DB: 0) | 200 OK [http://0.0.0.0/comments/fffbf68e4c321ccebac07a5174fd9357/edit]
+
+
+Processing CommentsController#edit (for 127.0.0.1 at 2010-02-01 21:21:21) [GET]
+  Parameters: {"id"=>"fffbf68e4c321ccebac07a5174fd9357"}
+Rendering template within layouts/application
+Rendering comments/edit
+
+ActionView::TemplateError (undefined method `message' for []:RelaxDB::ViewResult) on line #1 of app/views/comments/edit.html.erb:
+1: editing <%= @comment.message%>
+
+    app/views/comments/edit.html.erb:1
+
+Rendered rescues/_trace (142.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#edit (for 127.0.0.1 at 2010-02-01 21:23:17) [GET]
+  Parameters: {"id"=>"fffbf68e4c321ccebac07a5174fd9357"}
+Rendering template within layouts/application
+Rendering comments/edit
+
+ActionView::TemplateError (undefined method `message' for []:RelaxDB::ViewResult) on line #1 of app/views/comments/edit.html.erb:
+1: editing <%= @comment.message%>
+
+    app/views/comments/edit.html.erb:1
+
+Rendered rescues/_trace (54.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#edit (for 127.0.0.1 at 2010-02-01 21:23:24) [GET]
+  Parameters: {"id"=>"fffbf68e4c321ccebac07a5174fd9357"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 80ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/comments/fffbf68e4c321ccebac07a5174fd9357/edit]
+
+
+Processing CommentsController#edit (for 127.0.0.1 at 2010-02-01 21:29:15) [GET]
+  Parameters: {"id"=>"fffbf68e4c321ccebac07a5174fd9357"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 162ms (View: 1, DB: 0) | 200 OK [http://0.0.0.0/comments/fffbf68e4c321ccebac07a5174fd9357/edit]
+
+
+Processing CommentsController#edit (for 127.0.0.1 at 2010-02-01 21:33:11) [GET]
+  Parameters: {"id"=>"fffbf68e4c321ccebac07a5174fd9357"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 118ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/comments/fffbf68e4c321ccebac07a5174fd9357/edit]
+
+
+Processing CommentsController#edit (for 127.0.0.1 at 2010-02-02 11:23:30) [GET]
+  Parameters: {"id"=>"fffbf68e4c321ccebac07a5174fd9357"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 172ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/comments/fffbf68e4c321ccebac07a5174fd9357/edit]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-02 11:23:33) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 730ms (View: 645, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-02 11:23:37) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 101ms (View: 19, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-02 11:28:53) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 101ms (View: 20, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#edit (for 127.0.0.1 at 2010-02-02 11:28:55) [GET]
+  Parameters: {"id"=>"fffbf68e4c321ccebac07a5174fd9357"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 517ms (View: 439, DB: 0) | 200 OK [http://0.0.0.0/comments/fffbf68e4c321ccebac07a5174fd9357/edit]
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:28:58) [PUT]
+  Parameters: {"comment"=>{"approved"=>"1", "message"=>"adsasd"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"fffbf68e4c321ccebac07a5174fd9357"}
+
+NoMethodError (undefined method `update_attributes' for #<RelaxDB::ViewObject:0x249d37c>):
+  app/controllers/comments_controller.rb:13:in `update'
+
+Rendered rescues/_trace (44.7ms)
+Rendered rescues/_request_and_response (29.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:31:29) [PUT]
+  Parameters: {"comment"=>{"approved"=>"1", "message"=>"adsasd"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"fffbf68e4c321ccebac07a5174fd9357"}
+
+NoMethodError (undefined method `set_attributes' for #<RelaxDB::ViewObject:0x235eee8>):
+  app/controllers/comments_controller.rb:13:in `update'
+
+Rendered rescues/_trace (126.8ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:31:52) [PUT]
+  Parameters: {"comment"=>{"approved"=>"1", "message"=>"adsasd"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"fffbf68e4c321ccebac07a5174fd9357"}
+
+NoMethodError (undefined method `set_attributes' for #<RelaxDB::ViewObject:0x25c93e0>):
+  app/controllers/comments_controller.rb:13:in `update'
+
+Rendered rescues/_trace (43.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:33:47) [PUT]
+  Parameters: {"comment"=>{"approved"=>"1", "message"=>"adsasd"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"fffbf68e4c321ccebac07a5174fd9357"}
+
+ActionView::MissingTemplate (Missing template comments/update.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:34:00) [PUT]
+  Parameters: {"comment"=>{"approved"=>"1", "message"=>"adsasd"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"fffbf68e4c321ccebac07a5174fd9357"}
+Redirected to http://0.0.0.0:3000/comments
+Completed in 81ms (DB: 0) | 302 Found [http://0.0.0.0/comments/fffbf68e4c321ccebac07a5174fd9357]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-02 11:34:00) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 219ms (View: 24, DB: 0) | 200 OK [http://0.0.0.0/comments]
+
+
+Processing CommentsController#edit (for 127.0.0.1 at 2010-02-02 11:34:04) [GET]
+  Parameters: {"id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 96ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/comments/751eed7f29a89e2eb60e52c6509290c2/edit]
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:34:06) [PUT]
+  Parameters: {"comment"=>{"approved"=>"1", "message"=>"sweet!!"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+Redirected to http://0.0.0.0:3000/comments
+Completed in 99ms (DB: 0) | 302 Found [http://0.0.0.0/comments/751eed7f29a89e2eb60e52c6509290c2]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-02 11:34:07) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 135ms (View: 21, DB: 0) | 200 OK [http://0.0.0.0/comments]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-02 11:34:12) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 185ms (View: 20, DB: 0) | 200 OK [http://0.0.0.0/comments]
+
+
+Processing CommentsController#edit (for 127.0.0.1 at 2010-02-02 11:34:13) [GET]
+  Parameters: {"id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 213ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/comments/751eed7f29a89e2eb60e52c6509290c2/edit]
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:34:17) [PUT]
+  Parameters: {"comment"=>{"approved"=>"0", "message"=>"sweet!! yes oh"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+Redirected to http://0.0.0.0:3000/comments
+Completed in 97ms (DB: 0) | 302 Found [http://0.0.0.0/comments/751eed7f29a89e2eb60e52c6509290c2]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-02 11:34:17) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 118ms (View: 20, DB: 0) | 200 OK [http://0.0.0.0/comments]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-02 11:34:24) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 115ms (View: 21, DB: 0) | 200 OK [http://0.0.0.0/comments]
+
+
+Processing CommentsController#edit (for 127.0.0.1 at 2010-02-02 11:34:27) [GET]
+  Parameters: {"id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 97ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/comments/751eed7f29a89e2eb60e52c6509290c2/edit]
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:34:28) [PUT]
+  Parameters: {"comment"=>{"approved"=>"1", "message"=>"sweet!!"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+
+ActionView::MissingTemplate (Missing template comments/update.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:34:38) [PUT]
+  Parameters: {"comment"=>{"approved"=>"1", "message"=>"sweet!!"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+Rendering template within layouts/application
+Rendering comments/edit
+
+ActionView::TemplateError (undefined method `message' for nil:NilClass) on line #1 of app/views/comments/edit.html.erb:
+1: editing <%= @comment.message%>
+2: 
+3: <% form_for @comment do |f| -%>
+4: 
+
+    app/views/comments/edit.html.erb:1
+    app/controllers/comments_controller.rb:17:in `update'
+
+Rendered rescues/_trace (138.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:34:57) [PUT]
+  Parameters: {"comment"=>{"approved"=>"1", "message"=>"sweet!!"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 93ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/comments/751eed7f29a89e2eb60e52c6509290c2]
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:35:23) [PUT]
+  Parameters: {"comment"=>{"approved"=>"1", "message"=>"sweet!!"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 102ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/comments/751eed7f29a89e2eb60e52c6509290c2]
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:35:51) [PUT]
+  Parameters: {"comment"=>{"approved"=>"1", "message"=>"sweet!!"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 107ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/comments/751eed7f29a89e2eb60e52c6509290c2]
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:45:06) [PUT]
+  Parameters: {"comment"=>{"approved"=>"1", "message"=>"sweet!!"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 273ms (View: 163, DB: 0) | 200 OK [http://0.0.0.0/comments/751eed7f29a89e2eb60e52c6509290c2]
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:45:15) [PUT]
+  Parameters: {"comment"=>{"approved"=>"0", "message"=>"sweet!! asd"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 104ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/comments/751eed7f29a89e2eb60e52c6509290c2]
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:45:32) [PUT]
+  Parameters: {"comment"=>{"approved"=>"1", "message"=>"sweet!! asd"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 102ms (View: 14, DB: 0) | 200 OK [http://0.0.0.0/comments/751eed7f29a89e2eb60e52c6509290c2]
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:45:53) [PUT]
+  Parameters: {"comment"=>{"approved"=>"1", "message"=>"sweet!! asd"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 99ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/comments/751eed7f29a89e2eb60e52c6509290c2]
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:46:05) [PUT]
+  Parameters: {"comment"=>{"approved"=>"0", "message"=>"sweet!! asd"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 94ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/comments/751eed7f29a89e2eb60e52c6509290c2]
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:46:06) [PUT]
+  Parameters: {"comment"=>{"approved"=>"1", "message"=>"sweet!! asd"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 248ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/comments/751eed7f29a89e2eb60e52c6509290c2]
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:46:07) [PUT]
+  Parameters: {"comment"=>{"approved"=>"0", "message"=>"sweet!! asd"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 375ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/comments/751eed7f29a89e2eb60e52c6509290c2]
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:46:22) [PUT]
+  Parameters: {"comment"=>{"approved"=>"0", "message"=>"sweet!! asd"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 129ms (View: 14, DB: 0) | 200 OK [http://0.0.0.0/comments/751eed7f29a89e2eb60e52c6509290c2]
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:46:24) [PUT]
+  Parameters: {"comment"=>{"approved"=>"0", "message"=>"sweet!! asd"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 128ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/comments/751eed7f29a89e2eb60e52c6509290c2]
+
+
+Processing CommentsController#update (for 127.0.0.1 at 2010-02-02 11:46:25) [PUT]
+  Parameters: {"comment"=>{"approved"=>"1", "message"=>"sweet!! asd"}, "commit"=>"Submit", "authenticity_token"=>"Uo5u9vFJCQDvbTVUwv1eXYbIDrvXo/eJcaeZCzZOzTk=", "id"=>"751eed7f29a89e2eb60e52c6509290c2"}
+Rendering template within layouts/application
+Rendering comments/edit
+Completed in 185ms (View: 99, DB: 0) | 200 OK [http://0.0.0.0/comments/751eed7f29a89e2eb60e52c6509290c2]
+** couch_potato: initialized from /Library/Ruby/Gems/1.8/gems/couch_potato-0.2.22/rails/init.rb
+** couch_potato: initialized from /Library/Ruby/Gems/1.8/gems/couch_potato-0.2.22/rails/init.rb
+** couch_potato: initialized from /Library/Ruby/Gems/1.8/gems/couch_potato-0.2.22/rails/init.rb
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-03 13:17:48) [GET]
+
+SyntaxError (/Users/davidlowry/web/rnodecomments/app/models/comment.rb:9: syntax error, unexpected tASSOC, expecting kEND
+      :validator => lambda { |s| %w(accepted reje...
+                   ^):
+  app/controllers/comments_controller.rb:3:in `index'
+
+Rendered rescues/_trace (160.4ms)
+Rendered rescues/_request_and_response (1.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-03 13:17:56) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 428ms (View: 114 | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-03 13:18:20) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 26ms (View: 2 | 200 OK [http://0.0.0.0/]
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-03 13:18:35) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 44ms (View: 2 | 200 OK [http://0.0.0.0/]
+** couch_potato: initialized from /Library/Ruby/Gems/1.8/gems/couch_potato-0.2.22/rails/init.rb
+** couch_potato: initialized from /Library/Ruby/Gems/1.8/gems/couch_potato-0.2.22/rails/init.rb
+** couch_potato: initialized from /Library/Ruby/Gems/1.8/gems/couch_potato-0.2.22/rails/init.rb
+** couch_potato: initialized from /Library/Ruby/Gems/1.8/gems/couch_potato-0.2.22/rails/init.rb
+** couch_potato: initialized from /Library/Ruby/Gems/1.8/gems/couch_potato-0.2.22/rails/init.rb
+** couch_potato: initialized from /Library/Ruby/Gems/1.8/gems/couch_potato-0.2.22/rails/init.rb
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-03 13:22:08) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 105ms (View: 60 | 200 OK [http://0.0.0.0/]
+** couch_potato: initialized from /Library/Ruby/Gems/1.8/gems/couch_potato-0.2.22/rails/init.rb
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2010-02-03 14:36:42) [GET]
+Rendering template within layouts/application
+Rendering comments/index
+Completed in 214ms (View: 80 | 200 OK [http://0.0.0.0/]
+** couch_potato: initialized from /Library/Ruby/Gems/1.8/gems/couch_potato-0.2.22/rails/init.rb
+** couch_potato: initialized from /Library/Ruby/Gems/1.8/gems/couch_potato-0.2.22/rails/init.rb
+** couch_potato: initialized from /Library/Ruby/Gems/1.8/gems/couch_potato-0.2.22/rails/init.rb

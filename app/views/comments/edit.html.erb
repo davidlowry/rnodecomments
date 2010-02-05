@@ -1,0 +1,13 @@
+editing <%= @comment.message%>
+<%= error_messages_for :comment%>
+
+<% form_for @comment do |f| -%>
+
+  <%= f.label :message, "Message" %>
+  <%= f.text_field :message %>
+  
+  <%= f.label :approved, "Approved?" %>
+  <%= f.check_box :approved %>
+  
+  <%= f.submit "Submit", :disable_with => 'Submiting...' %>
+<% end -%>

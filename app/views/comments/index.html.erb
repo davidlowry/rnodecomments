@@ -1,0 +1,5 @@
+There are <%= @comments.length %> comments
+
+<% @comments.each do |comment|%>
+  <li/><%= comment.message %> <%= link_to "Edit", edit_comment_path(comment) %>
+<% end %>

@@ -1,0 +1,3 @@
+development: comments
+test: comments
+production: http://db.server/production_db_name
